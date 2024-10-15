@@ -28,7 +28,7 @@
           <p>capturing moment <br />creating memories</p>
         </div>
       </section>
-      <section>
+      <form>
         <h1>create an account</h1>
         <div class="login">
           <span>Already have an account?</span
@@ -44,14 +44,14 @@
         <div class="input-dive">
           <input
             type="text"
-            id="name"
+            id="firstName"
             name="name"
             class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             placeholder="Fletcher"
           />
           <input
             type="text"
-            id="name"
+            id="secondName"
             name="name"
             class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             placeholder="Your Name"
@@ -59,22 +59,29 @@
         </div>
         <input
           type="text"
+          id="email"
           name="name"
           class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           placeholder="Email"
         />
         <input
           type="text"
+          id="password"
           name="name"
           class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
           placeholder="Enter your password"
         />
-        <input type="checkbox" />
+        <input
+        id="checkbox"
+         type="checkbox" />
         <span
           >i agree to the <a class="spam" href="">Terms and conditions</a></span
         >
         <div class="create-account">
-          <button>create an account</button>
+          <button
+          type="submit" 
+          id="submit"
+          >create an account</button>
         </div>
         <div class="lineContainer">
           <div class="line"></div>
@@ -85,7 +92,7 @@
           <div class="google">google</div>
           <div class="apple">apple</div>
         </div>
-      </section>
+      </form>
     </main>
   </body>
 </html>
