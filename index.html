@@ -11,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
   </head>
@@ -28,71 +28,79 @@
           <p>capturing moment <br />creating memories</p>
         </div>
       </section>
-      <form>
-        <h1>create an account</h1>
-        <div class="login">
-          <span>Already have an account?</span
-          ><span
-            ><a
-              class="spam"
-              href="../condent/social-links-profile-main/index.html"
+      <section class="section-right">
+        <form>
+          <h1>create an account</h1>
+          <div class="login">
+            <span>Already have an account?</span
+            ><span
+              ><a
+                class="spam"
+                href="../condent/social-links-profile-main/index.html"
+              >
+                Log in</a
+              ></span
             >
-              Log in</a
-            ></span
+          </div>
+          <div class="input-dive">
+            <input
+              type="text"
+              id="firstName"
+              class="inputInput"
+              name="name"
+              class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              id="second"
+              class="inputInput"
+              name="name"
+              class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Last Name"
+            />
+          </div>
+          
+          <input
+            class="imputLongDiv"
+            type="text"
+            id="email"
+            name="name"
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Email"
+          />
+          <div class="input-container">
+          <input
+            class="imputLongDiv"
+            type="text"
+            id="password"
+            name="name"
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Enter your password "
+          />
+          <i class="fa-regular fa-eye"></i>
+          </div>
+          <input id="checkbox" type="checkbox" />
+          <span
+            >i agree to the
+            <a class="spam" href="">Terms and conditions</a></span
           >
-        </div>
-        <div class="input-dive">
-          <input
-            type="text"
-            id="firstName"
-            name="name"
-            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-            placeholder="Fletcher"
-          />
-          <input
-            type="text"
-            id="secondName"
-            name="name"
-            class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-            placeholder="Your Name"
-          />
-        </div>
-        <input
-          type="text"
-          id="email"
-          name="name"
-          class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-          placeholder="Email"
-        />
-        <input
-          type="text"
-          id="password"
-          name="name"
-          class="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-          placeholder="Enter your password"
-        />
-        <input
-        id="checkbox"
-         type="checkbox" />
-        <span
-          >i agree to the <a class="spam" href="">Terms and conditions</a></span
-        >
-        <div class="create-account">
-          <button
-          type="submit" 
-          id="submit"
-          >create an account</button>
-        </div>
-        <div class="lineContainer">
-          <div class="line"></div>
-          <div><p>or register</p></div>
-          <div class="line"></div>
-        </div>
-        <div class="googleAnd">
-          <div class="google">google</div>
-          <div class="apple">apple</div>
-        </div>
-      </form>
+          <!-- <div> -->
+            <button class="create-account" type="submit" id="submit">
+              <p style="color: aliceblue;">create an account</p>
+            </button>
+          <!-- </div> -->
+          <div class="lineContainer">
+            <div class="line"></div>
+            <div><p>or register</p></div>
+            <div class="line"></div>
+          </div>
+          <div class="googleAnd">
+            <div class="google"><i class="fa-brands fa-google"></i><p>Google</p></div>
+            <div class="apple"><i class="fa-brands fa-apple"></i><p>Apple</p></div>
+          </div>
+        </form>
+      </section>
     </main>
   </body>
 </html>

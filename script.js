@@ -34,3 +34,12 @@ function validateForm(e) {
   }
 }
 formEl.addEventListener("submit", validateForm);
+
+document.querySelector(".fa-regular").addEventListener("click", function () {
+  const passwordInput = document.getElementById("password");
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+  } else {
+    passwordInput.type = "password";
+  }
+});
